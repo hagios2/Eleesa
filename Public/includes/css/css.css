@@ -1,0 +1,121 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	width: 100%;
+	height: 100%;
+}
+@viewport {
+	width: device-width;
+	zoom: 1.0;
+}
+.main_section{
+			margin-right: 7%;
+			margin-left: 7%;
+			box-shadow: 0.5px 0.5px 4px 4px gray;
+
+}
+.header{
+		width: 100%;
+		border-bottom: 20px solid black;
+		border-top: 20px solid black;
+}
+
+
+.main_body .tabs{
+			width: 100%;
+			margin: auto;
+			overflow: hidden;
+		}
+
+.tabs .my_button{
+			background-color: white;
+			height: 10%;
+		}
+.tabs .my_button .tabbtn{
+			float: left;
+			background-color: #f1f1f1;
+			font-weight: bold;
+			font-size: 20px;
+			outline: none;
+			border: none;
+			padding: 10px 12px;
+			width:33.33%;
+
+		}
+.tabs .my_button .tabbtn:hover{
+			background-color: black;
+			color: white;
+			transition: 1s;
+
+		}
+.tabs .tabcontent{
+			background-color: white;
+			border: none;
+			outline: none;
+			display: none;
+			padding: 50px 50px;
+			background-image: url();
+			transition:background-color 2s;
+			opacity: 1;
+		}
+
+
+div#academics .search_content{
+	display:block;
+	position: absolute;
+	background-image: url("../../includes/images/header_image.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 350px;
+	border:1px solid none;
+	background-color: white;
+	opacity: 1;
+	margin-left:13%;
+	/*box-shadow: 0.5px 0.5px 4px 4px lightgray;*/
+	margin-top: 100px;
+	margin-right: 20%;
+	height: 920px;
+	width: 700px;
+	
+}
+div.new_div{
+	position: relative;
+	width: 80%;
+	padding-right: 0px;
+	margin-left: 70px;
+	margin-top: 360px;
+}
+form select{
+	border-radius: 10px;
+	height: 55px;
+	margin-left:23px;;
+	outline: none;
+	width: 500px;
+	margin-top: 10px;
+	border:none;
+	border-top: 5px solid #003366;
+	border-bottom: 5px solid #003366;
+	/*border-right: 30px solid #003366;*/
+}
+form select{
+	font-size: 23px;
+	font-weight: bold;
+}
+button#new_btn{
+	border-radius: 25px;
+	background-color: #003366;
+	color: white;
+	font-size: 23px;
+	height: 50px;
+	padding-top: 10px 10px;
+	width: 200px;
+	margin-top: 10px;
+	outline: none;
+	margin-left: 180px;
+}
+button#new_btn:hover{
+	box-shadow: 1px 1px 2px 2px black;
+	transition: 1s;
+}
+@media screen and (min-width: 480px) and (max-width: 1330px){
+}
