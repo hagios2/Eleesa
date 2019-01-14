@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Aca_board/.idea/Aca_board.iml" filepath="$PROJECT_DIR$/../Aca_board/.idea/Aca_board.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Eleesa2.iml" filepath="$PROJECT_DIR$/.idea/Eleesa2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Practices/Routing/.idea/Routing.iml" filepath="$PROJECT_DIR$/../Practices/Routing/.idea/Routing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../laravelPractice1/.idea/laravelPractice1.iml" filepath="$PROJECT_DIR$/../laravelPractice1/.idea/laravelPractice1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../LaravelAPI/.idea/laravelTemplate.iml" filepath="$PROJECT_DIR$/../LaravelAPI/.idea/laravelTemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mvc/.idea/mvc.iml" filepath="$PROJECT_DIR$/../mvc/.idea/mvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../php_rest_api/.idea/php_rest_myblog.iml" filepath="$PROJECT_DIR$/../php_rest_api/.idea/php_rest_myblog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../php_rest_myblog/.idea/php_rest_myblog.iml" filepath="$PROJECT_DIR$/../php_rest_myblog/.idea/php_rest_myblog.iml" />
     </modules>
   </component>
 </project>

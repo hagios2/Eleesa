@@ -89,64 +89,87 @@
             $prog_id = $_POST['program'];
             $sem_id = $_POST['semester'];
             $course_id = $_POST['course'];
-
+            $q = $book_name = $slide_name = $pasco_name = false;
             if (is_uploaded_file($_FILES['book']['tmp_name'])){
-                $dir = "Books/" . $course_id;
-                $book_name = $_FILES['book']['name'];
 
-                if (is_dir($dir)){
-                    $new_dir = $dir . "/" . $_FILES['book']['name'];
-                    move_uploaded_file($_FILES['book']['tmp_name'],$new_dir);
-                }else{
-                    mkdir($dir);
-                    $new_dir = "Books/" . $course_id . "/" . $_FILES['book']['name'];
-                    move_uploaded_file($_FILES['book']['tmp_name'], $new_dir);
-                }
+                $book_name = $_FILES['book']['name'];
+            }else{
+                //$book_name = false;
             }
 
             if (is_uploaded_file($_FILES['slide']['tmp_name'])){
-                $dir = "Slides/" . $course_id;
+               // $slide_dir = "Public/Slides/" . $mat_id;
                 $slide_name = $_FILES['slide']['name'];
-
-                if (is_dir($dir)){
-                    $new_dir = $dir  . "/" . $_FILES['slide']['name'];
-                    move_uploaded_file($_FILES['slide']['tmp_name'],$new_dir);
-                }else{
-                    mkdir($dir);
-                    $new_dir = "Slides/" . $course_id . "/" . $_FILES['slide']['name'];
-                    move_uploaded_file($_FILES['slide']['tmp_name'],$new_dir);
-                }
+            }else{
+              //  $slide_name = false;
             }
+
+
             if (is_uploaded_file($_FILES['pasco']['tmp_name'])){
-                $dir = "Pasco/" . $course_id;
+                //$pasco_dir = "Public/Pasco/" . $mat_id;
                 $pasco_name = $_FILES['pasco']['name'];
-
-                if (is_dir($dir)){
-                    $new_dir = $dir  . "/" . $_FILES['pasco']['name'];
-                    move_uploaded_file($_FILES['pasco']['tmp_name'],$new_dir);
-                }else{
-                    mkdir($dir);
-                    $new_dir = "Pasco/" . $course_id . "/" . $_FILES['pasco']['name'];
-                    move_uploaded_file($_FILES['pasco']['tmp_name'],$new_dir);
-                }
+            }else{
+              //  $pasco_name = false;
             }
 
-         //   if ($course_id &&  $book_name && $slide_name && $pasco_name){
-                $q = "INSERT INTO materials(course_id,book,slide,pasco)
-                      VALUES ($course_id,'$book_name','$slide_name','$pasco_name')";
-
+            if ($book_name && !$slide_name && !$pasco_name){
+                $q = "INSERT INTO materials(course_id,book) VALUES ($course_id,'$book_name')";
+            }else if (!$book_name && $slide_name && !$pasco_name){
+                $q = "INSERT INTO materials(course_id,slide) VALUES ($course_id,'$slide_name')";
+            }else if (!$book_name && !$slide_name && $pasco_name){
+                $q = "INSERT INTO materials(course_id,pasco) VALUES ($course_id,'$pasco_name')";
+            }else{
+                $q = "";
+            }
+            if ($q) {
                 $r = $conn->query($q);
 
-                if ($conn->affected_rows == 1){
-                   // move_uploaded_file($_FILES['book']['tmp_name'],$new_dir);
+                if ($conn->affected_rows == 1) {
+                    // move_uploaded_file($_FILES['book']['tmp_name'],$new_dir);
                     echo 'Successful';
-                }
-                else{
+
+                    $mat_id = $conn->insert_id;
+
+                    $book_dir = "Public/Books/" . $mat_id;
+                    $slide_dir = "Public/Slides/" . $mat_id;
+                    $pasco_dir = "Public/Pasco/" . $mat_id;
+                    if (is_dir($book_dir)) {
+
+                        $book_dir = $book_dir . "/" . $_FILES['book']['name'];
+                        move_uploaded_file($_FILES['book']['tmp_name'], $book_dir);
+                    } else {
+                        mkdir($book_dir);
+                        $book_dir = "Public/Books/" . $mat_id . "/" . $_FILES['book']['name'];
+                        move_uploaded_file($_FILES['book']['tmp_name'], $book_dir);
+                    }
+
+                    if (is_dir($slide_dir)) {
+                        $slide_dir = $slide_dir . "/" . $_FILES['slide']['name'];
+                        move_uploaded_file($_FILES['slide']['tmp_name'], $slide_dir);
+                    } else {
+                        mkdir($slide_dir);
+                        $slide_dir = "Public/Slides/" . $mat_id . "/" . $_FILES['slide']['name'];
+                        move_uploaded_file($_FILES['slide']['tmp_name'], $slide_dir);
+                    }
+
+                    if (is_dir($pasco_dir)) {
+                        $pasco_dir = $pasco_dir . "/" . $_FILES['pasco']['name'];
+                        move_uploaded_file($_FILES['pasco']['tmp_name'], $pasco_dir);
+                    } else {
+                        mkdir($pasco_dir);
+                        $pasco_dir = "Public/Pasco/" . $mat_id . "/" . $_FILES['pasco']['name'];
+                        move_uploaded_file($_FILES['pasco']['tmp_name'], $pasco_dir);
+                    }
+                } else {
                     echo 'Try again';
                 }
-          //  }
+            }
 
-        }
+
+         //   if ($course_id &&  $book_name && $slide_name && $pasco_name){
+
+          //  }
+}
     ?>
 </html>
 

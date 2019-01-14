@@ -1,12 +1,574 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="657e8ebc-042c-4ddb-a16d-c35b2346eacb" name="Default Changelist" comment="All done !">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/download.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aca_board/Public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Aca_board/Public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Eleesa2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Eleesa2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books/1/Fundamentals of Electric Circuits 4th ed - C. Alexander, M. Sadiku (McGraw-Hill, 2009) WW.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books/3/StewartCalculusEarlyTranscendentals7thEd.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books/4/Reading materials for PCB.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books/5/Env Sci1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books/6/communication skills notes for first year second semister.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books/7/Computer Concepts.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Books/8/INTRODUCTORY FRENCH.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/example.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Slides/1/Applied.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Slides/4/11-chp-11_A.C. FUNDAMENTALS.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravelPractice1/app/Http/Controllers/ListsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravelPractice1/app/Http/Controllers/ListsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravelPractice1/resources/views/lists/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravelPractice1/resources/views/lists/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravelPractice1/resources/views/lists/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravelPractice1/resources/views/lists/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravelPractice1/resources/views/lists/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../laravelPractice1/resources/views/lists/show.blade.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="ComposerSettings" executionDataType="PHAR" phpInterpreterId="c46189d6-67b1-406d-b6d3-1cd9196af045">
     <pharPath>C:\wamp64\www\composer.phar</pharPath>
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1246944820">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="env" value="1" />
+          <entry key="gitignore" value="1" />
+          <entry key="htaccess" value="4" />
+          <entry key="htacess" value="1" />
+          <entry key="php" value="46" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Blade" value="5" />
+          <entry key="PHP" value="41" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="htaccess" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="20" />
+          <entry key="env" value="31" />
+          <entry key="htaccess" value="355" />
+          <entry key="htacess" value="14" />
+          <entry key="php" value="11763" />
+          <entry key="txt" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Blade" value="452" />
+          <entry key="PHP" value="11309" />
+          <entry key="PLAIN_TEXT" value="75" />
+          <entry key="SQL" value="2" />
+          <entry key="htaccess" value="355" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.new.class">
+        <counts>
+          <entry key="PHP Class.type" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../mvc/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../mvc/controllers/help.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../php_rest_api/api/post/read.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../mvc/controllers/home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../mvc/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../php_rest_api" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../laravelPractice1/resources/views/lists/create.blade.php" />
+        <option value="$PROJECT_DIR$/../laravelPractice1/database/migrations/2019_01_11_160335_add_cover_image_to_lists.php" />
+        <option value="$PROJECT_DIR$/Public/download.php" />
+        <option value="$PROJECT_DIR$/admin.php" />
+        <option value="$PROJECT_DIR$/Public/materials.php" />
+        <option value="$PROJECT_DIR$/../laravelPractice1/resources/views/lists/index.blade.php" />
+        <option value="$PROJECT_DIR$/../laravelPractice1/resources/views/lists/show.blade.php" />
+        <option value="$PROJECT_DIR$/../laravelPractice1/resources/views/lists/edit.blade.php" />
+        <option value="$PROJECT_DIR$/../laravelPractice1/app/Http/Controllers/ListsController.php" />
+        <option value="$PROJECT_DIR$/../php_rest_myblog/api/post/read.php" />
+        <option value="$PROJECT_DIR$/../Practices/Routing/src/About.php" />
+        <option value="$PROJECT_DIR$/../Practices/Routing/src/home.php" />
+        <option value="$PROJECT_DIR$/../Practices/Routing/.htaccess" />
+        <option value="$PROJECT_DIR$/../Practices/Routing/src/contact.php" />
+        <option value="$PROJECT_DIR$/../Practices/Routing/src/about.php" />
+        <option value="$PROJECT_DIR$/../Practices/Routing/index.php" />
+        <option value="$PROJECT_DIR$/../Practices/Routing/Route.php" />
+        <option value="$PROJECT_DIR$/../LaravelAPI/.env" />
+        <option value="$PROJECT_DIR$/../LaravelAPI/database/migrations/2019_01_13_151251_create_articles_table.php" />
+        <option value="$PROJECT_DIR$/../LaravelAPI/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/../LaravelAPI/database/seeds/ArticlesTableSeeder.php" />
+        <option value="$PROJECT_DIR$/../LaravelAPI/database/factories/ArticleFactory.php" />
+        <option value="$PROJECT_DIR$/../LaravelAPI/app/Providers/AppServiceProvider.php" />
+        <option value="$PROJECT_DIR$/../LaravelAPI/app/Http/Resources/Article.php" />
+        <option value="$PROJECT_DIR$/../LaravelAPI/routes/api.php" />
+        <option value="$PROJECT_DIR$/../LaravelAPI/app/Http/Controllers/ArticleController.php" />
+        <option value="$PROJECT_DIR$/../php_rest_myblog/config/Database.php" />
+        <option value="$PROJECT_DIR$/../php_rest_myblog/api/post/read_single.php" />
+        <option value="$PROJECT_DIR$/../php_rest_myblog/api/post/create.php" />
+        <option value="$PROJECT_DIR$/../php_rest_myblog/api/post/update.php" />
+        <option value="$PROJECT_DIR$/../php_rest_myblog/models/Post.php" />
+        <option value="$PROJECT_DIR$/../php_rest_myblog/api/post/delete.php" />
+        <option value="$PROJECT_DIR$/../mvc/.htacess" />
+        <option value="$PROJECT_DIR$/../mvc/controllers/index.php" />
+        <option value="$PROJECT_DIR$/../mvc/controllers/home.php" />
+        <option value="$PROJECT_DIR$/../mvc/.htaccess" />
+        <option value="$PROJECT_DIR$/../mvc/index.php" />
+        <option value="$PROJECT_DIR$/../mvc/controllers/help.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/../LaravelAPI/package.json" />
+      <path value="$PROJECT_DIR$/../laravelPractice1/package.json" />
+      <path value="$PROJECT_DIR$/../laravelPractice1/vendor/unisharp/laravel-ckeditor/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="20" />
+    <option name="y" value="109" />
+    <option name="width" value="1346" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Eleesa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Eleesa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Eleesa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php_rest_api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Eleesa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php_rest_api" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Eleesa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php_rest_api" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="post" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Eleesa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Routing" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../php_rest_api" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.composer" />
     <property name="settings.editor.splitter.proportion" value="0.2975815" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="657e8ebc-042c-4ddb-a16d-c35b2346eacb" name="Default Changelist" comment="" />
+      <created>1547162140340</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547162140340</updated>
+      <workItem from="1547162141574" duration="4182000" />
+      <workItem from="1547186735884" duration="206000" />
+      <workItem from="1547220925204" duration="14495000" />
+      <workItem from="1547304551477" duration="23351000" />
+      <workItem from="1547390407393" duration="19510000" />
+      <workItem from="1547477882559" duration="5544000" />
+    </task>
+    <task id="LOCAL-00001" summary="All done !">
+      <created>1547501112758</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547501112758</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="67288000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="20" y="109" width="1346" height="728" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26164597" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32872504" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="All done !" />
+    <option name="LAST_COMMIT_MESSAGE" value="All done !" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../Aca_board/Public/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../laravelPractice1/database/migrations/2019_01_11_160335_add_cover_image_to_lists.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/materials.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="122" column="13" lean-forward="true" selection-start-line="122" selection-start-column="13" selection-end-line="122" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="70" column="11" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/download.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Aca_board/Public/download_file.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../laravelPractice1/resources/views/lists/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../laravelPractice1/public/storage/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../laravelPractice1/resources/views/lists/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="25" column="73" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../laravelPractice1/resources/views/lists/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../laravelPractice1/resources/views/lists/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Practices/Routing/src/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Practices/Routing/src/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Practices/Routing/src/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Practices/Routing/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Practices/Routing/Route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../laravelPractice1/app/Http/Controllers/ListsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="186" column="75" selection-start-line="186" selection-start-column="75" selection-end-line="186" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LaravelAPI/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LaravelAPI/database/migrations/2014_10_12_100000_create_password_resets_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LaravelAPI/database/migrations/2019_01_13_151251_create_articles_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LaravelAPI/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LaravelAPI/database/seeds/ArticlesTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LaravelAPI/database/factories/ArticleFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LaravelAPI/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LaravelAPI/app/Http/Resources/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LaravelAPI/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../php_rest_myblog/config/Database.php" />
+    <entry file="file://$PROJECT_DIR$/../php_rest_myblog/api/post/read.php" />
+    <entry file="file://$PROJECT_DIR$/../php_rest_myblog/api/post/read_single.php" />
+    <entry file="file://$PROJECT_DIR$/../php_rest_myblog/api/post/create.php" />
+    <entry file="file://$PROJECT_DIR$/../php_rest_myblog/models/Post.php" />
+    <entry file="file://$PROJECT_DIR$/../php_rest_myblog/api/post/update.php" />
+    <entry file="file://$PROJECT_DIR$/../php_rest_myblog/api/post/delete.php" />
+    <entry file="file://$PROJECT_DIR$/../LaravelAPI/app/Http/Controllers/ArticleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mvc/.htacess">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Practices/Routing/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mvc/controllers/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mvc/controllers/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mvc/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mvc/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mvc/controllers/help.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../php_rest_api/api/post/read.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

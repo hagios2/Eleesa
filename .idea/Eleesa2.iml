@@ -4,5 +4,12 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Aca_board" />
+    <orderEntry type="module" module-name="laravelPractice1" />
+    <orderEntry type="module" module-name="php_rest_myblog" />
+    <orderEntry type="module" module-name="Routing" />
+    <orderEntry type="module" module-name="laravelTemplate" />
+    <orderEntry type="module" module-name="mvc" />
+    <orderEntry type="module" module-name="php_rest_myblog" />
   </component>
 </module>
