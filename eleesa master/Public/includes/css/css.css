@@ -1,0 +1,267 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	width: 100%;
+	height: 100%;
+}
+@viewport {
+	width: device-width;
+	zoom:  1.0;
+}
+.main_section{
+			margin-right: 7%;
+			margin-left: 7%;
+			box-shadow: 0.5px 0.5px 4px 4px gray;
+
+}
+.header{
+		width: 100%;
+		border-bottom: 20px solid black;
+		border-top: 20px solid black;
+}
+/*div.footer{
+	width: 100%;
+	height: 200px;
+	background-color: black;
+}*/
+
+
+.main_body .tabs{
+			width: 100%;
+			margin: auto;
+			overflow: hidden;
+		}
+
+.tabs .my_button{
+			background-color: white;
+			height: 10%;
+		}
+.tabs .my_button .tabbtn{
+			float: left;
+			background-color: #f1f1f1;
+			font-weight: bold;
+			font-size: 20px;
+			outline: none;
+			border: none;
+			padding: 10px 12px;
+			width:33.33%;
+
+		}
+.tabs .my_button .tabbtn:hover{
+			background-color: black;
+			color: white;
+			transition: 1s;
+
+		}
+.tabs .tabcontent{
+			background-color: white;
+			border: none;
+			outline: none;
+			display: none;
+			padding: 50px 50px;
+			background-image: url();
+			transition:background-color 2s;
+			opacity: 1;
+		}
+
+
+div#academics .search_content{
+	display:block;
+	position: absolute;
+	background-image: url("../../includes/images/header_image.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 350px;
+	border:1px solid none;
+	background-color: white;
+	opacity: 1;
+	margin-left:13%;
+	/*box-shadow: 0.5px 0.5px 4px 4px lightgray;*/
+	margin-top: 100px;
+	margin-right: 20%;
+	height: 920px;
+	width: 700px;	
+}
+div.new_div{
+	position: relative;
+	width: 80%;
+	padding-right: 0px;
+	margin-left: 70px;
+	margin-top: 360px;
+}
+form select{
+	border-radius: 10px;
+	height: 55px;
+	margin-left:23px;;
+	outline: none;
+	width: 500px;
+	margin-top: 10px;
+	border:none;
+	border-top: 5px solid #003366;
+	border-bottom: 5px solid #003366;
+	/*border-right: 30px solid #003366;*/
+}
+form select{
+	font-size: 23px;
+	font-weight: bold;
+}
+button#new_btn{
+	border-radius: 25px;
+	background-color: #003366;
+	color: white;
+	font-size: 23px;
+	height: 50px;
+	padding-top: 10px 10px;
+	width: 200px;
+	margin-top: 10px;
+	outline: none;
+	margin-left: 180px;
+}
+button#new_btn:hover{
+	box-shadow: 1px 1px 2px 2px black;
+	transition: 1s;
+}
+div.about_eleesa{
+	margin:10px;
+	width: 100%;
+	height: 400px;
+	border-top-left-radius:200px; 
+	border-bottom-right-radius: 200px;
+	background:linear-gradient(lightgrey,white,white,white,white,white,white,white,white,white,lightgrey,black);
+
+}
+div.about_eleesa .main_content{
+	color: #003366;
+	padding-top: -10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 29px;
+	font-family: footlight MT light;
+}
+div.eleesa_exec{
+	margin:10px;
+}
+div.exec1,
+div.exec2,
+div.exec3,
+div.exec4,
+div.exec5,
+div.exec6,
+div.exec7,
+div.exec8,
+div.exec9,
+div.exec10,
+div.exec11,
+div.exec12{
+	margin:5px;
+	display: inline-block;
+	width: 32%;
+	height: 500px;
+	font-family: footlight MT light;
+}
+div.elees .exec1:hover{
+	transition: 1s;
+	z-index: 1;
+	box-shadow: 2px 2px 10px 10px whitesmoke;
+}
+div.exec2,
+div.exec4,
+div.exec6,
+div.exec8,
+div.exec10,
+div.exec12{
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	background:linear-gradient(white,white,white,white,white,white,white,white,white,lightgrey,lightgrey);
+}
+div.exec1,
+div.exec3,
+div.exec5,
+div.exec7,
+div.exec9,
+div.exec11{
+	background:linear-gradient(white,white,white,white,white,white,white,white,lightgrey,lightgrey,#003366);
+}
+h2#execs{
+	letter-spacing: 6px;
+	color: #003366;
+	border-radius: 10px;
+	border-bottom: 5px solid #003366;
+	padding: 10px;
+	font-family: candara;
+	width: 50%;
+	font-size: 25px;
+	margin-left: 250px;
+	text-align: center;
+}
+div.descr1,
+div.descr2,
+div.descr3,
+div.descr4,
+div.descr5,
+div.descr6,
+div.descr7,
+div.descr8,
+div.descr9,
+div.descr10,
+div.descr11,
+div.descr12{
+	color: black;
+	font-size: 28px;
+	padding-top: 0px;
+	text-align: center;
+}
+div.exec1 .image1{
+	height: 350px;
+	width: 100%;
+}
+div.exec2 .image2{
+	height: 350px;
+	width: 100%;
+}
+div.exec3 .image3{
+	height: 350px;
+	width: 100%;
+}
+div.exec4 .image4{
+	height: 350px;
+	width: 100%;
+}
+div.exec5 .image5{
+	height: 350px;
+	width: 100%;
+}
+div.exec6 .image6{
+	height: 350px;
+	width: 100%;
+}
+div.exec7 .image7{
+	height: 350px;
+	width: 100%;
+}
+div.exec8 .image8{
+	height: 350px;
+	width: 100%;
+}
+div.exec9 .image9{
+	height: 350px;
+	width: 100%;
+}
+div.exec10 .image10{
+	background-image: url('../../includes/images/image_10.jpg'); 
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	background-size: 100% 350px;
+	height: 350px;
+	width: 100%;
+}
+div.exec11 .image11{
+	height: 350px;
+	width: 100%;
+}
+div.exec12 .image12{
+	height: 350px;
+	width: 100%;
+}
+@media screen and (min-width: 480px) and (max-width: 1330px){
+}
